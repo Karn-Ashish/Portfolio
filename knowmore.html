@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Know More</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .top-left-nav {
+            display: flex;
+            justify-content: flex-start;
+            margin-bottom: 20px;
+        }
+        .top-left-nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #0056b3;
+            font-weight: bold;
+        }
+
+        section {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            background-color: white;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+        }
+        input, textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Know More About Us</h1>
+        <nav>
+            <ul>
+                <li><a href="#company-overview">Company Overview</a></li>
+                <li><a href="#our-story">Our Story</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#philosophy">Philosophy</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#faq">FAQs</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#query">Query Mail</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="top-left-nav">
+            <a href="index.html">Homepage</a>
+            <a href="projects.html">Projects</a>
+            <a href="knowmore.html">Know More</a>
+            <a href="contact.html">Contact Us</a>
+        </section>
+
+        <section id="company-overview">
+            <h2>Company Overview</h2>
+            <p>We are dedicated to providing the best services in the industry, focusing on quality and customer satisfaction.</p>
+        </section>
+
+        <section id="our-story">
+            <h2>Our Story</h2>
+            <p>Founded in 2020, our journey began with a vision to innovate and lead in our field.</p>
+        </section>
+
+        <section id="team">
+            <h2>Meet Our Team</h2>
+            <p>Our team consists of experienced professionals who are passionate about what they do.</p>
+        </section>
+
+        <section id="philosophy">
+            <h2>Our Philosophy</h2>
+            <p>We believe in sustainability, integrity, and excellence in every aspect of our business.</p>
+        </section>
+
+        <section id="testimonials">
+            <h2>What Our Clients Say</h2>
+            <p>"The service was exceptional and exceeded our expectations!" - Happy Customer</p>
+        </section>
+
+        <section id="blog">
+            <h2>Blog</h2>
+            <p>Check out our latest articles and insights on industry trends and tips.</p>
+        </section>
+
+        <section id="faq">
+            <h2>Frequently Asked Questions</h2>
+            <p>Find answers to common questions about our services and policies.</p>
+        </section>
+
+        <section id="query">
+            <h2>Query Mail</h2>
+            <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <input type="submit" value="Send Query">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ashish. All rights reserved.</p>
+    </footer>
+</body>
+</html>
